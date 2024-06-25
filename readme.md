@@ -6,14 +6,18 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/grasya-removebg-preview.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/highminds-removebg-preview.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/MNLA_1-removebg-preview.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/shein_bg_removed-removebg-preview.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/uniqlo_bg_removed-removebg-preview.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD-SEATWORK-3-</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  SEATWORK # 3 HEADER AND FOOTER.
 </div>
 
 <br />

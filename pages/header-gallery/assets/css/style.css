@@ -1,0 +1,469 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  a {
+    border: rgba(7, 0, 0, 0.945) 1px solid;
+    border-radius: 25px;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    color: rgb(8, 4, 4);
+    font-weight: 500;
+    transition: all 0.2s ease;
+    font-size: clamp(.8rem, 1vw, 1.2rem);
+
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  section {
+    width: 100vw;
+    padding: 1rem 5vw;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+  }
+
+  header.clothing-design1 {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    background: rgb(9, 17, 139);
+
+    & > img.company-logo {
+      height: 50px;
+    }
+
+    & > nav.button-classes {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+
+      & > a {
+          text-decoration: none;
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          color : rgb(0, 255, 242);
+          padding: .3rem .6rem;
+      }
+     }
+    }
+
+    .search-bar input,
+    .search-bar button {
+      padding: 0.5rem 1rem;
+      border: none;
+      background-color: #ffffff;
+    }
+
+  .clothing-design2 {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    align-items: center;
+    background: black;
+
+    & > nav.button-classes {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+
+      & > a {
+          text-decoration: none;
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          color : rgb(248, 248, 248);
+          padding: .3rem .6rem;
+      }
+     }
+  }
+  .clothing-design3 {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 0.7rem 10vw;
+    align-items: center;
+    background: rgb(165, 10, 10);
+
+    & > nav.button-classes {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+
+      & > a {
+          text-decoration: none;
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          color : rgb(0, 0, 0);
+          padding: .3rem .6rem;
+      }
+     }
+    .company-logo {
+      height: 70px;
+    }
+  }
+  .company-logo {
+    height: 50px;
+  }
+
+  .clothing-design4 {
+    width: 100vw;
+    display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color: rgb(247, 97, 97);
+      padding: 0.5rem 2rem;
+
+    & > img {
+      height: 90px;
+
+    & .company-logo {
+      height: 70px;
+    }
+      display: flex;
+      gap: 3rem;
+    }
+
+    & .navigation-content {
+      color: black;
+      font-weight: 700;
+      font-size: 1.2rem;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+   }
+
+  .clothing-design5 {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 0.8rem 10vw;
+    align-items: center;
+    background: black;
+
+    & > nav.button-classes {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    & > a {
+        text-decoration: none;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color : rgb(248, 248, 248);
+        padding: .3rem .6rem;
+     }
+    }
+  }
+
+  header.clothing-design1-animation {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10vw;
+    height: calc(50px + 1rem);
+    align-items: center;
+    background: rgb(97, 94, 84);
+
+    & > img.company-logo {
+      height: 80px;
+      padding: 0.2rem 0;
+      transition: all 0.3s ease;
+
+      &:hover {
+        transform: rotateZ(900deg);
+      }
+    }
+
+    & > nav.navigation {
+      display: flex;
+      align-items: center;
+      height: 100%;
+
+      & > a.navigation-content {
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: black;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 1rem;
+        transition: 0.2s ease;
+
+        &:hover {
+          background: rgb(253, 253, 253);
+        }
+      }
+    }
+  }
+
+  header.clothing-design2-animation {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10vw;
+    height: calc(50px + 1rem);
+    align-items: center;
+    background: rgb(124, 107, 60);
+
+    & > .pop-up {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      &:hover {
+        & > img.company-logo {
+          transform: rotateZ(720deg);
+        }
+
+        & > h1 {
+          color: rgb(253, 253, 253);
+          transform: translateX(0);
+        }
+      }
+
+      & > img.company-logo {
+        height: 90px;
+        padding: 0.2rem 0;
+        transition: all 0.3s ease;
+      }
+
+      & > h1 {
+        color: transparent;
+        transform: translateX(-5rem);
+        transition: all 0.3s ease;
+      }
+    }
+
+  .button2 {
+    align-self: center;
+    background-color: #2a1f2c;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(5, 5, 5, 0.2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .button2:hover {
+    box-shadow: rgba(39, 30, 39, 0.3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+  }
+
+  .button2:focus {
+    box-shadow: rgba(255, 255, 255, 0.3) 2px 8px 4px -6px;
+  }
+  }
+
+  .design-three-animation {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    gap: 2rem;
+    width: 100vw;
+    box-shadow: 0 10px rgba(192, 61, 61, 0.534);
+    padding: 1.5rem 0;
+    border: 1px rgb(255, 0, 0) solid;
+
+    &:hover .company-logo:not(:hover),
+    &:hover .navigation-content:not(:hover) {
+      transform: scale(0.85);
+    }
+
+    &:hover .navigation-content:not(:hover) {
+      opacity: 0.7;
+    }
+
+    & .company-logo {
+      height: 150px;
+      transition: 0.3s ease;
+
+      &:hover {
+        filter: drop-shadow(5px 5px 5px rgb(141, 141, 141));
+      }
+    }
+  }
+
+  .button3 {
+    align-items: center;
+    background-color: #4b4a3d;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000000;
+    font-family: Inter,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    height: 50px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .button3:focus {
+    color: #171e29;
+  }
+
+  .button3:hover {
+    border-color: rgb(3, 0, 0);
+    color: rgb(0, 0, 0);
+    fill: rgb(0, 0, 0);
+  }
+
+  .button3:active {
+    border-color: black;
+    color: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
+  }
+
+  @media (min-width: 768px) {
+    .button-59 {
+      min-width: 170px;
+    }
+  }
+
+  .design-four-animation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(39, 36, 28);
+    padding: 0.5rem 25rem;
+    gap: 2rem;
+
+    & > img {
+        height: 70px;
+    }
+
+    & > nav.button-classes {
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+
+        & > a {
+            border: 2px solid aliceblue;
+            border-radius: 10px;
+            padding: 0.10vw 1vw;
+            text-align: center;
+            transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+            user-select: none;
+            -webkit-user-select: none;
+            will-change: transform;
+            width: 100%;
+            touch-action: manipulation;
+
+          &:hover {
+                box-shadow: rgba(0, 0, 0, .25) 0 8px 15px;
+                transform: translateY(-2px);
+
+                &:active {
+                    box-shadow: none;
+                    transform: translateY(0);
+                }
+            }
+        }
+    }
+  }
+
+  .design-five-animation {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 2rem;
+    width: 100vw;
+    box-shadow: 0 10px rgb(255, 255, 255);
+    padding: 1.5rem 0;
+    border: 1px black solid;
+  }
+
+  & .company-logo {
+    height: 90px;
+    transition: 0.3s ease;
+
+    &:hover {
+      filter: drop-shadow(5px 5px 5px rgb(189, 177, 177));
+    }
+  }
+
+  .button5 {
+    appearance: none;
+    background-color: rgb(214, 214, 189);
+    border: 2px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #0000008c;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+    gap: 2rem;
+  }
+
+  .button5:disabled {
+    pointer-events: none;
+  }
+
+  .button5:hover {
+    color: #312531;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+
+  .button5:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }

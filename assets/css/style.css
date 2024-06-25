@@ -1,0 +1,284 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1a1a1a 50%, #6c2eb9 50%);
+    color: #fff;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  .content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  h1 {
+    font-size: 3em;
+    margin: 10px 0;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+
+  .header-static-1 {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .header-static-2 {
+    background: #444;
+    color: yellow;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .header-static-3 {
+    background: #555;
+    color: green;
+    padding: 20px;
+    text-align: right;
+  }
+
+  .header-static-4 {
+    background: #666;
+    color: red;
+    padding: 20px;
+    text-align: justify;
+  }
+
+  .header-static-5 {
+    background: #777;
+    color: blue;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .header-animated-1 {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    animation: slideInHeader 2s forwards;
+  }
+
+  @keyframes slideInHeader {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .header-animated-2 {
+    background: #333;
+    color: yellow;
+    padding: 20px;
+    text-align: center;
+    animation: fadeInHeader 2s forwards;
+  }
+
+  @keyframes fadeInHeader {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .header-animated-3 {
+    background: #444;
+    color: green;
+    padding: 20px;
+    text-align: center;
+    animation: bounceHeader 2s forwards;
+  }
+
+  @keyframes bounceHeader {
+    0%, 100% {
+      transform: translateY(-50%);
+    }
+    50% {
+      transform: translateY(20%);
+    }
+  }
+
+  .header-animated-4 {
+    background: #555;
+    color: red;
+    padding: 20px;
+    text-align: center;
+    animation: rotateHeader 2s forwards;
+  }
+
+  @keyframes rotateHeader {
+    from {
+      transform: rotate(-360deg);
+    }
+    to {
+      transform: rotate(0);
+    }
+  }
+
+  .header-animated-5 {
+    background: #666;
+    color: blue;
+    padding: 20px;
+    text-align: center;
+    animation: zoomInHeader 2s forwards;
+  }
+
+  @keyframes zoomInHeader {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  .footer-static-1 {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-static-2 {
+    background: #444;
+    color: yellow;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .footer-static-3 {
+    background: #555;
+    color: green;
+    padding: 20px;
+    text-align: right;
+  }
+
+  .footer-static-4 {
+    background: #666;
+    color: red;
+    padding: 20px;
+    text-align: justify;
+  }
+
+  .footer-static-5 {
+    background: #777;
+    color: blue;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer-animated-1 {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    animation: slideInFooter 2s forwards;
+  }
+
+  @keyframes slideInFooter {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .footer-animated-2 {
+    background: #333;
+    color: yellow;
+    padding: 20px;
+    text-align: center;
+    animation: fadeInFooter 2s forwards;
+  }
+
+  @keyframes fadeInFooter {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .footer-animated-3 {
+    background: #444;
+    color: green;
+    padding: 20px;
+    text-align: center;
+    animation: bounceFooter 2s forwards;
+  }
+
+  @keyframes bounceFooter {
+    0%, 100% {
+      transform: translateY(50%);
+    }
+    50% {
+      transform: translateY(-20%);
+    }
+  }
+
+  .footer-animated-4 {
+    background: #555;
+    color: red;
+    padding: 20px;
+    text-align: center;
+    animation: rotateFooter 2s forwards;
+  }
+
+  @keyframes rotateFooter {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0);
+    }
+  }
+
+  .footer-animated-5 {
+    background: #666;
+    color: blue;
+    padding: 20px;
+    text-align: center;
+    animation: zoomInFooter 2s forwards;
+  }
+
+  @keyframes zoomInFooter {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
