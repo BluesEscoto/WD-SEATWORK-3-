@@ -56,12 +56,6 @@
 1. 5 - STATIC & ANIMATED HEADER
 2. 5 - STATIC & ANIMATED FOOTER
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
-
 ### Key Components
 - MultiPage Website - Hover Effects - Not Effects - ### Technology ![HTML]
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
